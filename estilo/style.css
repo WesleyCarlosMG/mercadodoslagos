@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.header-super-bg {
+  background: yellowgreen;
+}
+
+.header-super {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.header-super a {
+  color: #fff;
+}
+
+.header-down-bg {
+  align-items: center;
+  background: darkolivegreen;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, .6);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-logo {
+  padding: 5px 10px;
+}
+
+.nav a {
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0px 10px 0px 0px;
+  padding: 5px;
+  transition-duration: 225ms;
+}
+
+.nav a:hover{
+  background: yellowgreen;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sobre {
+  align-items: center;
+  color: #7c7c7c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.175em;
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+.sobre-texto {
+  margin: 0 auto;
+}
+
+.sobre-texto p {
+  text-align: justify;
+  margin: 10px 20px;
+  max-width: 400px;
+}
+
+.sobre-texto strong {
+  color: #7c7c7c;
+  font-size: 1.2em;
+}
+
+.sobre-img {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.promocoes-items {
+  color: #111;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, auto);
+  margin: 0 auto;
+  max-width: 900px;
+  place-items: auto start;
+  padding: 20px;
+}
+
+.item {
+  background: yellowgreen;
+  border: 1px solid darkolivegreen;
+  border-radius: 4px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2;
+  grid-template-rows: 40px;
+  padding: 10px;
+}
+
+.item h2, .item span, .item p {
+  grid-column: 1;
+  margin: 5px 0px;
+  place-self: center end;
+}
+
+.item span {
+  background: darkolivegreen;
+  border-radius: 4px;
+  grid-column: 1;
+  grid-row: 3;
+  padding: 2px;
+}
+
+.promocoes-items h2 {
+  color: darkolivegreen;
+}
+
+img {
+  max-width: 100%;
+}
+
+.item-img {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1/4;
+}
+
+.contato-texto {
+  background: darkolivegreen;
+  color: #fff;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.contato-texto p {
+  padding-bottom: 10px;
+}
+
+.contato-texto a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.rodape {
+  align-items: space-between;
+  background: darkolivegreen;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.rodape-texto {
+  text-align: center;
+}
+
+.rodape-texto p {
+  margin-top: 5px;
+}
